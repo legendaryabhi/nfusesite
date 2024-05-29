@@ -13,21 +13,17 @@ const SkillText = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Solving the Problem of Clean Energy and Sustainable Energy
+          A cleaner brighter future is possible
           </h1>
         </motion.div>
         <motion.div
         variants={slideInFromLeft(0.5)}
         className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
         >
-            A cleaner brighter future is possible
+            Project NFuse aims at solving the problem of climate change and sustainable energy by making nuclear fusion a reality.
         </motion.div>
-        <motion.div
-        variants={slideInFromRight(0.5)}
-        className='text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
-        >
-            and we are here to make it with A.I and
-        </motion.div>
+        
+        
         
         
     </div> 

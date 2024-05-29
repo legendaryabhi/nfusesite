@@ -5,8 +5,8 @@ import SkillText from "../sub/SkillText";
 const Skills = () => {
   return (
     <section
-      id="skills"
-      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20"
+      id="nfuse"
+      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden  pt-20"
       style={{ transform: "scale(0.9)" ,zIndex:20}}
     >
       <SkillText />
@@ -30,8 +30,7 @@ const Skills = () => {
                 title="video"
               />
             </div>
-      
-      
+            
     </section>
   );
 };
