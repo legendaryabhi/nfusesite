@@ -4,22 +4,21 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
-import siteMetadata from "@/utils/siteMetaData";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL(siteMetadata.siteUrl),
+  metadataBase: new URL('https://nfuse.necrozmalabs.com'),
   title: {
-    template: `%s | ${siteMetadata.title}`,
-    default: siteMetadata.title, // a default is required when creating a template
+    template: `%s |NFuse`,
+    default: 'NFuse', // a default is required when creating a template
   },
-  description: siteMetadata.description,
+  description: 'Project NFuse from Necrozma Labs aims at making Nuclear Fusion a reality',
   openGraph: {
-    title: siteMetadata.title,
-    description: siteMetadata.description,
-    url: siteMetadata.siteUrl,
-    siteName: siteMetadata.title,
+    title: 'NFuse',
+    description: 'Project NFuse from Necrozma Labs aims at making Nuclear Fusion a reality',
+    url: 'https://nfuse.necrozmalabs.com',
+    siteName: 'NFuse',
     
     locale: "en_US",
     type: "website",
@@ -38,7 +37,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: siteMetadata.title,
+    title: 'NFuse',
   },
 };
 export default function RootLayout({
