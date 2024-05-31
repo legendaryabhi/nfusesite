@@ -10,15 +10,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: new URL('https://nfuse.necrozmalabs.com'),
   title: {
-    template: `%s |NFuse`,
-    default: 'NFuse', // a default is required when creating a template
+    template: `%s |Project NFuse`,
+    default: 'Project NFuse', // a default is required when creating a template
   },
   description: 'Project NFuse from Necrozma Labs aims at making Nuclear Fusion a reality',
   openGraph: {
-    title: 'NFuse',
+    title: 'Project NFuse',
     description: 'Project NFuse from Necrozma Labs aims at making Nuclear Fusion a reality',
     url: 'https://nfuse.necrozmalabs.com',
-    siteName: 'NFuse',
+    siteName: 'Project NFuse',
     
     locale: "en_US",
     type: "website",
@@ -37,7 +37,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: 'NFuse',
+    title: 'Project NFuse',
   },
 };
 export default function RootLayout({
