@@ -10,7 +10,7 @@ const Skills = () => {
       style={{ transform: "scale(0.9)" ,zIndex:20}}
     >
       <SkillText />
-      <div
+      {/* <div
               style={{
                 position: "relative",
                 width: "100%",
@@ -29,7 +29,7 @@ const Skills = () => {
                 
                 title="video"
               />
-            </div>
+            </div> */}
             
     </section>
   );
