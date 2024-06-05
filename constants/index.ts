@@ -8,7 +8,7 @@
     {
       name: "YouTube",
       src: "/youtube.svg",
-      url:'https://www.youtube.com/@necrozmaofficial'
+      url:'https://www.youtube.com/@NecrozmaLabs'
     },
     {
       name: "LinkedIN",

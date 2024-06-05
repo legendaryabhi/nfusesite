@@ -26,7 +26,6 @@ const Skills = () => {
                 height="90%" 
                 style={{ position: "absolute", top: 0, left: 0 ,zIndex:20}}
                 allow="autoplay; encrypted-media"
-                
                 title="video"
               />
             </div>
