@@ -10,7 +10,7 @@ const Skills = () => {
       style={{ transform: "scale(0.9)" ,zIndex:20}}
     >
       <SkillText />
-      {/* <div
+      <div
               style={{
                 position: "relative",
                 width: "100%",
@@ -21,7 +21,7 @@ const Skills = () => {
               }}
             >
               <iframe
-                src="https://www.youtube.com/embed/G4vHpQGulYk"
+                src="https://www.youtube.com/embed/qmbSomp7StU"
                 width="100%"
                 height="90%" 
                 style={{ position: "absolute", top: 0, left: 0 ,zIndex:20}}
@@ -29,7 +29,7 @@ const Skills = () => {
                 
                 title="video"
               />
-            </div> */}
+            </div>
             
     </section>
   );
